@@ -12,6 +12,7 @@
     "@apollo/client": "^3.8.3",
     "@heroicons/react": "^1.0.6",
     "@tremor/react": "^3.7.6",
+    "@vercel/analytics": "^1.0.2",
     "autoprefixer": "10.4.15",
     "country-state-city": "^3.2.0",
     "eslint": "8.49.0",

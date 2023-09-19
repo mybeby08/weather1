@@ -4,8 +4,6 @@ import GET_QUERY from "@/graphql/queries/fetchWeather";
 import MsgCard from "@/components/MsgCard";
 import WeatherStats from "@/components/WeatherStats";
 import InfoPanel from "@/components/InfoPanel";
-import getBase from "@/lib/getBase";
-import cleanData from "@/lib/cleanData";
 export const revalidate = 60;
 async function page({ params: { city, lat, long } }) {
   const client = getApolloClient();
